@@ -122,27 +122,6 @@ The stacking ensemble effectively mitigates individual model weaknesses, yieldin
 
 ---
 
-## 📦 Installation & Usage
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/brain-tumor-ensemble.git
-cd brain-tumor-ensemble
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Download dataset from Kaggle
-kaggle datasets download -d masoudnickparvar/brain-tumor-mri-dataset
-
-# Run training
-python train.py --model efficientnetb3
-
-# Run ensemble
-python ensemble.py
-```
-
----
 
 ## 🛠️ Tech Stack
 
